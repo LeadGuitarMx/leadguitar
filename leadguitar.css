@@ -12493,3 +12493,11 @@ a.text-dark:focus {
 .bg-instagram{background:#f09433;background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)}
 .bg-whatsapp{background:#4fce5d}
 button[type=submit]:disabled, input[type=submit]:disabled{background:#555!important}
+
+footer.bg-dark{background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;}
