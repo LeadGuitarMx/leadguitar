@@ -7500,7 +7500,7 @@ select.form-control[multiple] > option:disabled {
     max-width: 100%;
     padding: 3rem;
     color: rgba(0, 0, 0, 0.85);
-    background-color: #ffffff;
+    background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.4rem;
     -moz-box-shadow: none;
@@ -7509,7 +7509,7 @@ select.form-control[multiple] > option:disabled {
 }
 .dark-mode .modal-content {
     color: rgba(255, 255, 255, 0.8);
-    background-color: #191c20;
+    background-color: transparent;
     border-color: rgba(0, 0, 0, 0.2);
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
