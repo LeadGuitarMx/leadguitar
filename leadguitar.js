@@ -601,7 +601,7 @@ $('a[href*=".png"], a[href*=".gif"], a[href*=".jpg"], a[href*=".jpeg"]').addClas
 	if($('#mpalert').length) {
 		function mpalert() {
 		halfmoon.initStickyAlert({
-		content: "Tienes mensajes privados sin leer, da <a href='#msj' class='text-white'>click aquí</a> para verlos.",
+		content: "Tienes mensajes privados sin leer, da <a href='https://leadguitar.mx/mensajes/' class='text-white'>click aquí</a> para verlos.",
 		title: "📧 Nuevo Mensaje Privado!",
 		alertType: "alert-primary",
 		fillType: "filled",
