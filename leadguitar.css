@@ -12561,7 +12561,7 @@ body:not(.dark-mode) .hidden-lm {
 .rounded-0 {
     border-radius: 0 !important;
 }
-.rounded {
+.wp-post-image img,.rounded {
     border-radius: 0.4rem !important;
 }
 .rounded-top {
@@ -13469,7 +13469,7 @@ body:not(.dark-mode) .invisible-lm {
     -webkit-box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.4) !important;
     box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.4) !important;
 }
-.shadow {
+.wp-post-image img,.shadow {
     -moz-box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15) !important;
     -webkit-box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15) !important;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15) !important;
