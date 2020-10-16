@@ -567,7 +567,7 @@ $('a[href*=".png"], a[href*=".gif"], a[href*=".jpg"], a[href*=".jpeg"]').addClas
 		event.preventDefault();
 		$.ajax({
 			 type: 'POST',
-			 url: "/contacto/index.php",
+			 url: "https://leadguitar.mx/contacto/index.php",
 			 dataType : 'json',
 			 data: $('#contacto').serialize(),
 			 success: function(response) {
