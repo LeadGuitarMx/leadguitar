@@ -632,6 +632,7 @@ $('.content-wrapper').on('scroll', function(){
     } else {
 		$(".gotop").addClass("d-none");
 	}
+});
 var $all_oembed_videos=$("iframe[src*='youtube']");$all_oembed_videos.each(function(){$(this).removeAttr('height').removeAttr('width').wrap("<div class='video-container'></div>");});
 if(!$("#ablockercheck").is(":visible") && $('#ablockercheck').length){$("#ablockermsg").prepend("<div class='modal' id='ayudanos' tabindex='-1' role='dialog'><div class='modal-dialog' role='document'><div class='modal-content bg-dark text-light'><button class='close closeframe' data-dismiss='modal' type='button' aria-label='Close'><span aria-hidden='true'>&times;</span></button><h5 class='modal-title'>Hola ! 🙂</h5> <p>Por favor considera <b>desactivar el Blockeador de Publicidad para éste sitio </b>.</p><p>Ya que sin la publicidad no podemos mantenernos en linea.</p><p>Te prometo que no verás mucha publicidad ni popups molestos.</p><p>De antemano muchas gracias por ayudarnos. 😉 Saludos ! </p><div class='text-right mt-20'><button class='btn btn-primary closeframe' data-dismiss='modal' type='button'>OK entiendo</button></div></div></div>").show();halfmoon.toggleModal('ayudanos');}
 /* Slider Unblock */
